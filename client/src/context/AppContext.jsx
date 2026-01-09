@@ -101,7 +101,7 @@ export const AppContextProvider= ({children})=>{
     },[token]);
 
     const value={
-        navigate, user, setUser, chats, setChats, selectedChat, setSelectedChat, theme, setTheme, createNewChat, loadingUser, fetchUsersChats, token, setToken, axios
+        navigate, user, setUser, chats, setChats, selectedChat, setSelectedChat, theme, setTheme, createNewChat, loadingUser, fetchUsersChats, token, setToken, axios, fetchUser
     };
 
     return (
